@@ -1,5 +1,38 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Saira+Extra+Condensed:500');
+
+/* Resets min */
+html, 
+body,
+div, 
+h1,
+h2,
+p,
+section,
+audio {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  border:none;
+  font-size: 100%;
+  font:inherit;
+  vertical-align: middle;
+}
+/* Styles */
+html {
+  font-size: 24px;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: rgb(229, 177, 58);
+  font-family: "Opne Sans", sans-serif;
+  height: 100vh;
+  line-height: 1.25;
+  overflow: hidden;
+}
+
+div[id="root"]{
+  width: 100%;
 }
